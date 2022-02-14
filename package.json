@@ -1,0 +1,17 @@
+{
+	"name": "electron-mongodb",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"devDependencies": {
+		"@types/electron": "^1.6.10",
+		"concurrently": "^7.0.0",
+		"electron": "^17.0.0"
+	},
+	"dependencies": {
+		"mongodb": "^4.3.1"
+	}
+}
